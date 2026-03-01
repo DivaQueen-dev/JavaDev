@@ -16,7 +16,6 @@ public class BinomialCoefficient {
         int n = sc.nextInt();
         System.out.print("Enter r: ");
         int r = sc.nextInt();
-
         if (r > n) {
             System.out.println("Invalid input: r cannot be greater than n");
         } else {
